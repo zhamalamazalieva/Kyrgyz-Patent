@@ -1,4 +1,8 @@
 .header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
     background-color: rgba($color-darkBlue, $alpha: .8);
     width: 100%;
     &__wrapper{
