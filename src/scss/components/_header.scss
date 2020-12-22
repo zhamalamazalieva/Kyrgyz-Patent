@@ -1,0 +1,46 @@
+.header{
+    background-color: rgba($color-darkBlue, $alpha: .8);
+    width: 100%;
+    &__wrapper{
+        padding: 6px 0 15px;
+        @include flex-center(space-between);
+    }
+    &__logo{
+        img{
+            width: 112px;
+            height: 59px;
+        }
+    }
+    &__block--right{
+        display: flex;
+        align-items: center;
+    }
+    &__search{
+        border-left: 2px solid $color-white;
+        padding-left:25px;
+        margin-left: 36px;
+        svg{
+            stroke: $color-white;
+            transform: rotate(-90deg);
+        }
+    }
+}
+.social, .info{
+    display: flex;
+    align-items: center;
+    &__items{
+        display: flex;
+        align-items:center;
+        margin-right: 15px;
+        &:last-child{
+            margin: 0;
+        }
+        svg{
+            margin-right: 5px;
+        }
+    }
+    span{
+        color: $color-white;
+        @include font(9px);
+    }
+}

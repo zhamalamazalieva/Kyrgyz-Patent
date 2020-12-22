@@ -1,0 +1,12 @@
+@mixin font($size:14px, $weight:400, $height:1, $family:'Roboto', $style:normal){
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    font-family: $family;
+    font-style: $style;
+}
+@mixin flex-center($jcenter:center, $acenter:center){
+    display: flex;
+    justify-content: $jcenter;
+    align-items: $acenter;
+}
