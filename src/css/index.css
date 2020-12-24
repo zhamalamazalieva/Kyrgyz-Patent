@@ -53,6 +53,38 @@ table {
   border-spacing: 0;
 }
 
+.col-1 {
+  width: 8.333%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-5 {
+  width: 41.6666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.34%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -397,4 +429,42 @@ img {
   color: #FFFFFF;
   text-align: center;
   max-width: 95px;
+}
+
+.services {
+  padding-bottom: 118px;
+  background-image: url("../image/png/room.png");
+}
+
+.services__item {
+  background-color: rgba(2, 23, 97, 0.85);
+  border-radius: 10px;
+  padding: 19px 10px 33px;
+  width: 133px;
+  height: 124px;
+  text-align: center;
+  margin-top: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.services__name, .services__description {
+  color: #FFFFFF;
+}
+
+.services__name {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1;
+  font-family: "Roboto";
+  font-style: normal;
+  margin-bottom: 8px;
+}
+
+.services__description {
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 1;
+  font-family: "Roboto";
+  font-style: normal;
 }

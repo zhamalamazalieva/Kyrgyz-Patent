@@ -1,0 +1,25 @@
+.services{
+    padding-bottom: 118px;
+    background-image:url('../image/png/room.png');
+    &__item{
+        background-color: rgba($color-darkBlue, .85);
+        border-radius: 10px;
+        padding: 19px 10px 33px;
+        width: 133px;
+        height: 124px;
+        text-align: center;
+        margin-top: 50px;
+        box-sizing: border-box;
+    }
+    &__name, &__description{
+        color: $color-white;
+    }
+    &__name{
+        @include font(10px);
+        margin-bottom: 8px
+    }
+    &__description{
+        @include font(8px);
+
+    }
+}
