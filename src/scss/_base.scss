@@ -40,6 +40,7 @@ html {
   }
   .row{
       flex-wrap: wrap;
+      min-width: 0;
   }
   .column {
     flex-direction: column;
