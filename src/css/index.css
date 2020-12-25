@@ -446,6 +446,15 @@ img {
   margin-top: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7);
+          box-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.services__item:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .services__name, .services__description {
