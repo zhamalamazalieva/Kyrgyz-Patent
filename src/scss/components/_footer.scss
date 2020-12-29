@@ -1,0 +1,33 @@
+.footer{
+    background-color: $color-darkBlue;
+    position: relative;
+    &__title, &__address, &__contact, &__work-hour{
+        @include font(15px, 300, 1.2, 300, $font-open);
+        margin-bottom: 25px;
+    }
+    &__left{
+        padding: 24px 0 30px;
+        padding: 24px 0 30px;
+        display: flex;
+        width: 65%;
+
+    }
+    &__right{
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-width: 35%;
+        iframe{
+            max-width: 100%;
+        }
+    }
+  
+    &__row{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    &__bank-details{
+        @include font(15px, 300, 1.2, 300, $font-open);
+
+    }
+}

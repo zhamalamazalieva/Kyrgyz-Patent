@@ -1,0 +1,48 @@
+.statistic{
+    background-image:url('../image/png/Rectangle 30.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 373px;
+    position: relative;
+    z-index: 2;
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color-darkBlue, $alpha: .5);
+        z-index: -1;
+        }
+    &__row{
+        margin: 0 -35px;
+    }
+    &__item{
+        text-align: center;
+        margin: 0 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__circle{
+        width: 129px;
+        height:129px;
+        border-radius:50%;
+        border: 5px solid $color-white;
+        margin-bottom: 40px;
+        @include flex-center();
+        span{
+            @include font(36px,400, 1, $font-open);
+        }
+    }
+    &__title{
+        @include font(24px,400,1.2,$font-open);
+        padding: 50px 0 15px;
+        text-align: center;
+    }
+    &__description{
+        @include font(15px, 300, 1.2, $font-open);
+
+    }
+}
