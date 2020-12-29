@@ -1,4 +1,4 @@
-@mixin font($size:14px, $weight:400, $height:1, $family:'Roboto', $style:normal){
+@mixin font($size:14px, $weight:400, $height:1, $family:'Open-Sans', $style:normal){
     font-size: $size;
     font-weight: $weight;
     line-height: $height;

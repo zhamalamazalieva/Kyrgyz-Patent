@@ -15,7 +15,7 @@
         margin: 25px 0 0;
     }
     &__title{
-        @include font(36px, 700, $font-open)
+        @include font(36px, 700,1.2, $font-open)
     }
     &__item{
         display: flex;

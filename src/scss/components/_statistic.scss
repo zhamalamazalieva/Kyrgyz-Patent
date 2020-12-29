@@ -33,11 +33,11 @@
         margin-bottom: 40px;
         @include flex-center();
         span{
-            @include font(36px, $font-open);
+            @include font(36px,400, 1, $font-open);
         }
     }
     &__title{
-        @include font(24px, $font-open);
+        @include font(24px,400,1.2,$font-open);
         padding: 50px 0 15px;
         text-align: center;
     }

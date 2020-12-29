@@ -99,7 +99,7 @@ body {
   margin: 0;
   padding: 0;
   color: #FFFFFF;
-  font-family: "Roboto",sans-serif;
+  font-family: "Open-Sans",sans-serif;
 }
 
 a,
@@ -234,7 +234,7 @@ img {
   font-size: 9px;
   font-weight: 400;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
 }
 
@@ -260,7 +260,7 @@ img {
   font-size: 72px;
   font-weight: 900;
   line-height: 84px;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
   padding: 250px 0 100px;
   text-align: center;
@@ -302,7 +302,7 @@ img {
   font-size: 10px;
   font-weight: 700;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
   border-radius: 15px;
 }
@@ -329,7 +329,7 @@ img {
   font-size: 14px;
   font-weight: 700;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
   color: #FFFFFF;
 }
@@ -409,7 +409,7 @@ img {
   font-size: 24px;
   font-weight: 400;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
 }
 
@@ -417,7 +417,7 @@ img {
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
   margin: 12px 0 20px 0;
 }
@@ -445,7 +445,7 @@ img {
   font-size: 5px;
   font-weight: 400;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
   margin-bottom: 10px;
 }
@@ -477,7 +477,7 @@ img {
   font-size: 12px;
   font-weight: 700;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
   padding: 10px 67px;
   border-radius: 15px;
@@ -520,7 +520,7 @@ img {
   font-size: 10px;
   font-weight: 400;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
   margin-bottom: 8px;
 }
@@ -529,7 +529,7 @@ img {
   font-size: 8px;
   font-weight: 400;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open-Sans";
   font-style: normal;
 }
 
@@ -565,8 +565,8 @@ img {
 .news__title {
   font-size: 36px;
   font-weight: 700;
-  line-height: "Open Sans", sans-serif;
-  font-family: "Roboto";
+  line-height: 1.2;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
 }
 
@@ -715,17 +715,17 @@ img {
 
 .statistic__circle span {
   font-size: 36px;
-  font-weight: "Open Sans", sans-serif;
+  font-weight: 400;
   line-height: 1;
-  font-family: "Roboto";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
 }
 
 .statistic__title {
   font-size: 24px;
-  font-weight: "Open Sans", sans-serif;
-  line-height: 1;
-  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   padding: 50px 0 15px;
   text-align: center;
@@ -737,4 +737,62 @@ img {
   line-height: 1.2;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
+}
+
+.partners {
+  padding: 30px 0 50px;
+}
+
+.partners__name {
+  color: #1267A2;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
+
+.partners__row1, .partners__row2 {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partners__row1 {
+  margin-bottom: 90px;
+}
+
+.partners__item {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.partners .slick-slider {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.partners .slick-slide {
+  border: none;
+  outline: none;
+}
+
+.partners .slick-slide img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
