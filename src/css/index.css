@@ -334,6 +334,56 @@ img {
   color: #FFFFFF;
 }
 
+.footer {
+  background-color: #021761;
+  position: relative;
+}
+
+.footer__title, .footer__address, .footer__contact, .footer__work-hour {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: 300;
+  font-style: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+
+.footer__left {
+  padding: 24px 0 30px;
+  padding: 24px 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+}
+
+.footer__right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 35%;
+}
+
+.footer__right iframe {
+  max-width: 100%;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.footer__bank-details {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: 300;
+  font-style: "Open Sans", sans-serif;
+}
+
 .tender {
   background-image: url("../image/png/tender.png");
 }

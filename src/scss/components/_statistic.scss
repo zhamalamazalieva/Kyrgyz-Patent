@@ -42,8 +42,7 @@
         text-align: center;
     }
     &__description{
-        @include font(15px, 300, 1.2,$font-open);
+        @include font(15px, 300, 1.2, $font-open);
 
     }
-
 }
